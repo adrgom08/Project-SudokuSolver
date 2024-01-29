@@ -1,0 +1,14 @@
+Sudoku solver
+
+Write a parallel program (in Java or C++) that checks if an answer to a Sudoku puzzle 
+is correct. However, if one thread detects a mistake, then it should stop all the other 
+threads. Specific requirements: 
+• You need to first implement a sequential version for your solver. In order to get a 
+baseline performance result. 
+• You need to experiment with at-least 3 different optimizations and run different 
+experiments to evaluate their performance benefits. 
+• You must clearly explain all the optimizations that you did in the write-up and 
+explain the reason for choosing this optimization and how you expect it to influence 
+the run-time of your solver.
+• You may decide to experiment with the number of threads which your solver is 
+using. However, your solution(s) should have a minimum of 3 threads. 
